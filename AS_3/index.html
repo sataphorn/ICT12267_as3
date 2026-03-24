@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3 - CSS Circle</title>
+    <style>
+        
+        .spiner {
+            width: 200px; 
+            height: 200px; 
+            border-radius: 50%; 
+            border: 25px solid white; 
+            border-top: 20px solid indigo; 
+            animation: ani 2.5s linear infinite; 
+            margin-bottom: 20px;
+        }
+
+       
+        .circle1 {
+            background-color: orangered; 
+        }
+
+        
+        .circle2 {
+            background-color: orchid; 
+        }
+
+       
+        @keyframes ani {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>68063450 ศตพร พิณสายเหม</h1>
+    <h2>เลขที่:  กลุ่มเรียน: L004</h2>
+
+    <div class="spiner circle1"></div>
+    <div class="spiner circle2"></div>
+
+</body>
+</html>
